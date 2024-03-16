@@ -3,15 +3,13 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/style.css">
         <title>Lucas Skarpness</title>
     </head>
-    <body style="background-color: black;">
-        
+    <body data-bs-spy="scroll" data-bs-target="#goTop">
+        <div id="topbar" class="topbar"></div>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-3">
-                    <!--                                  v  top-50 start-0 translate-middle-y -->
                     <div class="sticky-top top-50 translate-middle-y">
                         <div class="container p-3 border border-1 border-dark rounded-5">
                             <div class="row justify-content-center align-items-center">
@@ -20,6 +18,14 @@
                                     <h3 class="lead text-light mt-4">Lucas Skarpness</h3>
                                     <p class="text-secondary"><small>Bachelor Student at University of Minnesota</small></p>
                                     <p class="text-secondary"><small>Based in Minneapolis, Minnesota</small></p>
+                                    <p class="text-secondary">
+                                        <a href="https://github.com/lmskarpness" class="lead text-secondary text-decoration-none">
+                                            <img src="./github-icon.png" alt="Github Icon" class="img-fluid social-icon">
+                                        </a>
+                                        <a href="https://www.linkedin.com/in/lmskarpness/" class="lead text-secondary text-decoration-none">
+                                            <img src="./li-icon.png" alt="LinkedIn Icon" class="img-fluid social-icon">
+                                        </a>
+                                    </p>
                                     <p class="text-secondary"><small>© Lucas Skarpness</small></p>
                                 </div>
                             </div>
@@ -146,6 +152,16 @@
                 </div>
             </div>
         </div>
+        <!-- Jump to top -->
+        <div id="goTop" class="container d-flex justify-content-center align-items-center">
+            <a href="#topbar" id="goTopBtn"><span class="lead text-light">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z"/>
+                </svg>
+            </span></a>
+        </div>
         <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/style.css">
+        <script src="script.js"></script>
     </body>
 </html>
