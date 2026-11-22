@@ -1,4 +1,6 @@
+<!DOCTYPE html>
 <html lang="en">
+<<<<<<< HEAD
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -45,10 +47,55 @@
                                         Check out some of my information below, or browse my GitHub and LinkedIn for more!
                                     </div> -->
                                 </div>
+=======
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Skarpness</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="topbar" class="topbar"></div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <aside class="col-xl-3">
+                <div class="sticky-top top-50 translate-middle-y">
+                    <div class="container p-3 border border-1 border-dark rounded-5">
+                        <div id="profile" class="row justify-content-center align-items-center"></div>
+                    </div>
+                </div>
+            </aside>
+
+            <main class="col-xl-9 mt-5">
+                <section id="intro"></section>
+
+                <section id="education">
+                    <div class="container-lg">
+                        <div class="row g-4 justify-content-center align-items-center">
+                            <div class="col-md-11">
+                                <h2 class="display-3 mb-4 text-light">Education</h2>
+                                <div id="education-list"></div>
                             </div>
                         </div>
-                    </section>
+                    </div>
+                </section>
 
+                <section id="experience">
+                    <div class="container-lg">
+                        <div class="row g-4 justify-content-center align-items-center">
+                            <div class="col-md-11">
+                                <h2 class="display-3 mb-4 text-light">Experience</h2>
+                                <div id="experience-list"></div>
+>>>>>>> 9a1c937 (updated structure)
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+<<<<<<< HEAD
                     <!-- Education -->
                     <section id="education">
                         <div class="container-lg">
@@ -66,10 +113,20 @@
                                         <p><small>Relevant Coursework: Algorithms, Data Structures, Machine Architecture, Operating Systems, Internet Programming, Databases, Discrete Structures, Software Engineering, Artificial Intelligence</small></p>
                                     </div>
                                 </div>
+=======
+                <section id="skills">
+                    <div class="container-lg">
+                        <div class="row g-4 justify-content-center align-items-center">
+                            <div class="col-md-11">
+                                <h2 class="display-3 mb-4 text-light">Skills</h2>
+                                <div id="skills-list" class="row justify-content-center"></div>
+>>>>>>> 9a1c937 (updated structure)
                             </div>
                         </div>
-                    </section>
+                    </div>
+                </section>
 
+<<<<<<< HEAD
                     <!-- Experience -->
                     <section id="experience">
                         <div class="container-lg">
@@ -232,17 +289,33 @@
                     </section>
                 </div>
             </div>
+=======
+                <section id="projects">
+                    <div class="container-lg">
+                        <div class="row g-4 justify-content-center align-items-center">
+                            <div class="col-md-11">
+                                <h2 class="display-3 mb-4 text-light">Projects</h2>
+                                <div id="project-list" class="row g-4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+>>>>>>> 9a1c937 (updated structure)
         </div>
-        <!-- Jump to top -->
-        <div id="goTop" class="container d-flex justify-content-center align-items-center">
-            <a href="#topbar" id="goTopBtn"><span class="lead text-light">
+    </div>
+
+    <div id="goTop" class="container d-flex justify-content-center align-items-center">
+        <a href="#topbar" id="goTopBtn" aria-label="Go to top">
+            <span class="lead text-light">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z"/>
                 </svg>
-            </span></a>
-        </div>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <script src="js/script.js"></script>
-    </body>
+            </span>
+        </a>
+    </div>
+
+    <script src="js/portfolio-data.js"></script>
+    <script src="js/script.js"></script>
+</body>
 </html>
